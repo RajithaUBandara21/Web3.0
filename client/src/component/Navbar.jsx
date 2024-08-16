@@ -6,9 +6,9 @@ import {useState} from "react";
 
 
 import logo from '../../images/logo.png';
-
 const NavbarItem= ({title,classProps}) => {
     return (
+
       <li className={'mx-4 cursor-pointer ${classProps}'}>
 {title}
 
@@ -50,7 +50,7 @@ Login
       (item, index) => <NavbarItem key={item + index} title={item} classProps="my-2 text-lg" />,
     )}
   </ul>
-)}
+)} 
  </div>
     </nav>
     );
